@@ -1,12 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# School library
+# Rails blogg
 
-> In this project, you can ran the aplication to start uploading books, persons and rentals using the comand line interface!
+> In this project, I worked on the setup for a future blog, preparing the routes for the app
 
 ## Built With
 
-- Ruby
+- Ruby, Rails, Bundler
 - Git, Github, Rubocop
 
 ## Getting Started
