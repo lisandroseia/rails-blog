@@ -19,10 +19,10 @@ RSpec.describe 'posts render correct template', type: :request do
   end
   context 'Get #index' do
     before :each do
-        get '/users/index/posts/index'
+      get '/users/index/posts/index'
     end
     it 'runs template' do
-        expect(response).to render_template('posts/show')
+      expect(response).to render_template('posts/show')
     end
 
     it 'gives correct response' do
