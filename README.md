@@ -25,7 +25,6 @@ run "bundle install" to install dependancies
 
 run "rails db:setup"
 
-
 ### Run the app
 
 Run "rails s" to start the aplication
