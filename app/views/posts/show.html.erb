@@ -1,1 +1,17 @@
-<h1>inside post show</h1>
+<% post = @post_current%>
+
+<section class ="posts">
+<div class="main-wrap"> 
+<div class="post-head">
+  <p>"<%= post.title%> " by <%= post.author.name%></p>
+  <p>Comments: <%= post.comments_counter || 0%> likes: <%= post.likes_counter || 0%></p>
+</div>
+<p class="main-post"><%= post.text%> </p>
+</div>
+<div class="comments">
+<div class="post-data comment">
+<p>Comments:</p>
+     <%= render partial: "renders/comment", collection: post.comments.order(created_at: :desc) %>
+</div>
+</div>
+</section>

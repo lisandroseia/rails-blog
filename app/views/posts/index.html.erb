@@ -2,10 +2,7 @@
 
 <ul class="post-wrap">
 <% @posts.each_with_index do |post, index|%>
-<li class="post-data">
-    <p>post #<%= index + 1%></p>
    <%= render partial: "renders/post", object: post%>
-</li>
 <li class="post-data comment">
    <h3>Comments:</h3>
    <%= render partial: "renders/comment", collection: post.last_comments %>

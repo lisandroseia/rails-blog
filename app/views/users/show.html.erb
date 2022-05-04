@@ -10,12 +10,7 @@
 
 <div>
 <ul class="post-wrap">
-<% posts.each_with_index do |post, index|%>
-<li class="post-data">
-    <p>post #<%= index + 1%></p>
-   <%= render partial: "renders/post", object: post%>
-</li>
-<%end%>
+   <%= render partial: "renders/post", collection: posts%>
 </ul>
 </div>
 
