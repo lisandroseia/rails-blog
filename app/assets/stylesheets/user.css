@@ -54,5 +54,5 @@ li {
     border: 3px solid #000;
     width: 85%;
     padding: 10px 20px;
-    margin: 20px auto;
+    margin-inline: auto;
 }
