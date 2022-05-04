@@ -3,7 +3,7 @@
 }
 
 .posts {
-  width: min(80%, 90%);
+  width: 80%;
   margin-inline: auto;
 }
 
@@ -17,8 +17,8 @@
 .main-post {
   display: flex;
   text-align: center;
-  width: min(80%, 90%);
-  height: min(200px, 400px);
+  width: 80%;
+  height: 200px, 400px;
 }
 
 .main-wrap {
