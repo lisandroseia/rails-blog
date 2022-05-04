@@ -1,0 +1,30 @@
+img{
+    width: min(190px, 200px);
+    height: min(190px, 200px);
+    aspect-ratio: 1/1;
+}
+
+li{
+    display: flex;
+    width: min(100% - 15rem);
+    margin-inline: auto;
+    margin-trim: all;
+    margin-bottom: 10px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    width: min(70%);
+    margin-inline: auto;
+    justify-content: space-evenly;
+    border: 3px solid #000;
+}
+
+.card-title{
+font-size: 50px;
+}
+
+.card-para{
+  align-self: flex-end;
+}

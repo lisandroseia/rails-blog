@@ -1,1 +1,11 @@
-<h1>inside user index</h1>
+<ul>
+<% @users.each do |user|%>
+<li> 
+<img src=<%= user.photo %> alt="photo">
+<div class="card">
+<h2 class="card-title"><%= user.name%></h2> 
+<p class="card-para">number of posts: <%= user.posts_counter %> </p>
+</div>
+</li>
+<% end %>
+</ul>
