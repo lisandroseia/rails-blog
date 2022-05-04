@@ -2,12 +2,13 @@
 
 # Rails blogg
 
-> In this project, I worked on the setup for a future blog, preparing the routes for the app
+> In this project, I worked on a blog that acces to a database to display everything on the screen!
 
 ## Built With
 
 - Ruby, Rails, Bundler
 - Git, Github, Rubocop
+- Postgresql
 
 ## Getting Started
 
