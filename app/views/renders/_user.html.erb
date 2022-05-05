@@ -1,0 +1,9 @@
+<li class="card-wrap">
+<%= link_to user do %>
+  <%= image_tag user.photo, class: 'card-image', alt: 'photo' %>
+<% end %>
+<div class="card">
+<h2 class="card-title"><%= user.name%></h2> 
+<p class="card-para">number of posts: <%= user.posts_counter %> id: <%= user.id%> </p>
+</div>
+<li>
