@@ -57,7 +57,7 @@ li {
   margin-inline: auto;
 }
 
-.btn{
+.btn {
   background-color: #fff;
   font-size: 20px;
   outline: none;
@@ -66,11 +66,11 @@ li {
   padding: 5px 10px;
 }
 
-.btn:hover{
+.btn:hover {
   cursor: pointer;
 }
 
-.post-father{
+.post-father {
   display: flex;
   flex-direction: column;
   align-items: center;
