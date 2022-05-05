@@ -8,9 +8,9 @@
 <p class="bio-text"> <%= user.bio%> </p>
 </div>
 
-<div>
+<div class="post-father">
 <ul class="post-wrap">
    <%= render partial: "renders/post", collection: posts%>
 </ul>
-</div>
+<%= link_to "See all posts", "/users/#{user.id}/posts" %></div>
 
